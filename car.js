@@ -1,7 +1,7 @@
 const score = document.querySelector('.Score');
 const startscreen = document.querySelector('.StartScreen');
 const gamearea = document.querySelector('.GameArea');
-let player = { speed: 5, score: 0 };
+let player = { speed: 2, score: 0 };
 let highest = 0;
 startscreen.addEventListener('click', start);
 
