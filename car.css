@@ -80,3 +80,7 @@ button{
     background-color: blueviolet;
     color: white;
 }
+
+audio{
+    display: none;
+}

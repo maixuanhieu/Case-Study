@@ -1,7 +1,7 @@
 const score = document.querySelector('.Score');
 const startscreen = document.querySelector('.StartScreen');
 const gamearea = document.querySelector('.GameArea');
-let player = { speed: 2, score: 0 };
+let player = { speed: 3, score: 0 };
 let highest = 0;
 startscreen.addEventListener('click', start);
 
@@ -104,8 +104,11 @@ function gamePlay() {
     }
 
 }
+
+var x = document.getElementById("myAudio");
 function Reset() {
     highest = 0;
+    x.play();
 }
 function start() {
     //gamearea.classList.remove('hide');
